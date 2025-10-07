@@ -1,0 +1,104 @@
+
+
+
+.banner {
+    background-color: #f0f0f0;
+    background-image: url(Images/Logo.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fffdfd;
+    animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+    50% {color: blue;}
+  
+}
+
+.large-btn {
+    display: flex;
+    justify-content: center;
+    background-color: #007BFF;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: fit-content;
+    gap: 10px;
+}
+
+.large-btn:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s; 
+    cursor: pointer;
+}
+.btn:hover {
+    cursor: pointer;
+    color: blue;
+    background-color: lightgreen;
+}
+
+.btn:visited {
+    color: green;
+}
+
+
+.roadmap-list {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+}
+
+.roadmap-item {
+    background-color: #e0e0e0;
+    padding: 15px;
+    border-radius: 8px;
+    flex: 1;
+    min-width: 150px;
+    text-align: center;
+}
+
+.trophy-list {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+}
+
+.trophy-item {
+    background-color: #e0e0e0;
+    padding: 15px;
+    border-radius: 8px;
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+}
+
+.dlc-trophy-guide {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+}
+.dlc-trophy-item {
+    background-color: #e0e0e0;
+    padding: 15px;
+    border-radius: 8px;
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .roadmap-item, .trophy-item, .dlc-trophy-item {
+        min-width: 100%;
+        margin-bottom: 1em;
+    }
+}
