@@ -18,6 +18,14 @@
     50% {color: blue;}
   
 }
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-bottom: 2px solid #e0e0e0;
+}
 
 .large-btn {
     display: flex;
@@ -101,4 +109,31 @@
         min-width: 100%;
         margin-bottom: 1em;
     }
+}
+
+.mission {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.services {
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    
+}
+
+.reasoning {
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
 }
