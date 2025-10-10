@@ -23,7 +23,7 @@ nav {
     justify-content: center;
     gap: 20px;
     padding: 20px;
-    background-color: #f8f8f8;
+    background-color: #e0e0e0;
     border-bottom: 2px solid #e0e0e0;
 }
 
@@ -48,12 +48,12 @@ nav {
 }
 .btn:hover {
     cursor: pointer;
-    color: blue;
-    background-color: lightgreen;
+    color: red;
+    background-color: darkgoldenrod;
 }
 
 .btn:visited {
-    color: green;
+    color: white;
 }
 
 
@@ -65,7 +65,7 @@ nav {
 }
 
 .roadmap-item {
-    background-color: #e0e0e0;
+    background-color: #0464e0;
     padding: 15px;
     border-radius: 8px;
     flex: 1;
@@ -81,7 +81,7 @@ nav {
 }
 
 .trophy-item {
-    background-color: #e0e0e0;
+    background-color: #0464e0;
     padding: 15px;
     border-radius: 8px;
     flex: 1;
@@ -96,7 +96,7 @@ nav {
     padding: 20px;
 }
 .dlc-trophy-item {
-    background-color: #e0e0e0;
+    background-color: #0464e0;
     padding: 15px;
     border-radius: 8px;
     flex: 1;
@@ -112,14 +112,14 @@ nav {
 }
 
 .mission {
-    background-color: #f9f9f9;
+    background-color: #0464e0;
     padding: 20px;
     border-radius: 8px;
     margin: 20px 0;
 }
 
 .services {
-    background-color: #f9f9f9;
+    background-color: #0464e0;
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -129,7 +129,7 @@ nav {
 }
 
 .reasoning {
-    background-color: #f9f9f9;
+    background-color: #0464e0;
     display: flex;
     flex-direction: row;
     gap: 20px;
