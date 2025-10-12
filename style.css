@@ -3,7 +3,7 @@
 
 .banner {
     background-color: #f0f0f0;
-    background-image: url(Images/Logo.jpg);
+    background-image: url(Logo.jpg);
     background-size: cover;
     background-position: center;
     padding: 20px;
@@ -136,4 +136,5 @@ nav {
     padding: 20px;
     border-radius: 8px;
     margin: 20px 0;
+
 }
