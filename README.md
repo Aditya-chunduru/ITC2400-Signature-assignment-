@@ -1,4 +1,4 @@
-# Trophy Hunter's Domain 
+# Trophy Hunter's Domain(Early Access)
 
 
 Trophy Hunter’s Domain is a student project created for ITC 2400: Web and Mobile Development at Northeastern University. The website includes an attractive home page and a dedicated offerings page, built with semantic HTML5 and styled via external CSS. Responsive design allows usage on desktop and mobile.
